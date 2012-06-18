@@ -1,5 +1,6 @@
-/*
- * TANATO  is a library dedicated to the modelling of water pathways based on
+/**
+ *
+ * TANATO is a library dedicated to the modeling of water pathways based on
  * triangulate irregular network. TANATO takes into account anthropogenic and
  * natural artifacts to evaluate their impacts on the watershed response.
  * It ables to compute watershed, main slope directions and water flow pathways.
@@ -14,10 +15,10 @@
  * AvuPur project, funded by the French Agence Nationale de la Recherche
  * (ANR) under contract ANR-07-VULN-01.
  *
- * TANATO is distributed under GPL 3 license. It is produced by the "Atelier SIG" team of
- * the IRSTV Institute <http://www.irstv.cnrs.fr/> CNRS FR 2488.
- * Copyright (C) 2010 Erwan BOCHER, Alexis GUEGANNO, Jean-Yves MARTIN
- * Copyright (C) 2011 Erwan BOCHER, Alexis GUEGANNO, Jean-Yves MARTIN
+ * TANATO is distributed under GPL 3 license. It is produced by the "Atelier SIG"
+ * team of the IRSTV Institute <http://www.irstv.cnrs.fr/> CNRS FR 2488.
+ *
+ * Copyright (C) 2010-2012 IRSTV (FR CNRS 2488)
  *
  * TANATO is free software: you can redistribute it and/or modify it under the
  * terms of the GNU General Public License as published by the Free Software
@@ -31,7 +32,7 @@
  * You should have received a copy of the GNU General Public License along with
  * TANATO. If not, see <http://www.gnu.org/licenses/>.
  *
- * For more information, please consult: <http://trac.orbisgis.org/>
+ * For more information, please consult: <http://www.orbisgis.org/>
  * or contact directly:
  * info_at_ orbisgis.org
  */
@@ -43,7 +44,7 @@ import org.tanato.processing.sql.TanatoFunctionRegister;
 
 /**
  *
- * @author ebocher
+ * @author Erwan Bocher
  */
 public class TanatoPlugin extends AbstractPlugIn {
 
