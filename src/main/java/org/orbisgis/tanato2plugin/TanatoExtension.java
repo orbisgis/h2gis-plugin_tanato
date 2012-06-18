@@ -36,9 +36,8 @@
  * or contact directly:
  * info_at_ orbisgis.org
  */
-package org.tanato.tanatoplugin;
+package org.orbisgis.tanato2plugin;
 
-import org.orbisgis.tanato2plugin.TanatoPlugin;
 import org.orbisgis.core.ui.pluginSystem.Extension;
 import org.orbisgis.core.ui.pluginSystem.PlugInContext;
 
